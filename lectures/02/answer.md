@@ -2,8 +2,8 @@
 
 ## Exercises
 
-- Model and settings used (from `config` in `result.json`):
-- Did you run training yourself (`executed_training_myself`): Yes / No (how far you ran the notebook: )
+- Model and settings used (from `config` in `result.json`):Qwen/Qwen3.5-0.8B
+- Did you run training yourself (`executed_training_myself`): Yes
 - Before training: `format_rate` = / `content_rate` =
 - After training: `format_rate` = / `content_rate` =
 - Questions that regressed:

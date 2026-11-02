@@ -9,6 +9,6 @@
 ## Homework
 
 - Level attempted: Basic / Implementation / Advanced
-- What you did:
-- Results:
-- Observations and questions:
+- What you did:Implementation
+- Results:会話履歴を保って追質問できるようにしました。app/ask.py は、引数なしで起動すると既定の質問から対話を始め、/exit または /quit で終了します
+- Observations and questions: コンテキストを保ったまま会話はできるが、モデルの切り替えを途中で行うなどは行っていない

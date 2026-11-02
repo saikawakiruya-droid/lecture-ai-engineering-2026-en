@@ -27,6 +27,12 @@ To run locally on your own PC, install Python 3.12 and [uv](https://docs.astral.
 
 ```bash
 uv run pytest -q
+uv run python -m app.ask
+```
+
+The interactive chat starts with a course-specific question and keeps the conversation history for follow-up questions. Enter `/exit` to finish. To ask just one question, pass it as an argument:
+
+```bash
 uv run python -m app.ask "What is LoRA?"
 ```
 
